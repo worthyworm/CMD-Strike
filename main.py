@@ -1,5 +1,6 @@
 import os
 import time
+import random
 
 version = "alpha-test"
 roundTime = 115
@@ -14,6 +15,7 @@ roundsMax = 24
 headMultiplier = 4
 bodyMultiplier = 1
 torsoMultiplier = 1.25
+sides = ["T", "CT"]
 
 maps = ["Mirage", "Dust 2", "Inferno", "Anubis", "Ancient", "Train"]
 
@@ -77,3 +79,24 @@ tactics = [
     },
 
 ]
+
+class simulate:
+    def start(matchTeam1, matchTeam2):  
+        random.shuffle(sides)  
+
+        
+        matchTeam1["side"] = sides[0]
+        matchTeam2["side"] = sides[1]
+
+        
+        print(f"Team {matchTeam1['name']} playing {matchTeam1['side']}")
+        print(f"Team {matchTeam2['name']} playing {matchTeam2['side']}")
+
+
+
+
+matchTeam1 = teams[int(input("Select team #1 (number) : "))]
+matchTeam2 = teams[int(input("Select team #2 (number) : "))]
+
+simulate.start(matchTeam1, matchTeam2)
+
