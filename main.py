@@ -11,6 +11,9 @@ scoreToWin = 13
 teamSwitch = 12
 roundsPlayed = 0
 roundsMax = 24
+headMultiplier = 4
+bodyMultiplier = 1
+torsoMultiplier = 1.25
 
 maps = ["Mirage", "Dust 2", "Inferno", "Anubis", "Ancient", "Train"]
 
