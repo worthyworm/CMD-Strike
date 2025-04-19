@@ -69,8 +69,8 @@ teams = [
 tactics = [
 
     {
-        "name" : "tactic1"
-        ""
-    }
+        "name" : "default",
+        "Category" : "opening"
+    },
 
 ]
