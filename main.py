@@ -53,10 +53,15 @@ weapons = {
 
 }
 
-teams = [{
+teams = [
 
+    {
+        "name" : "pipirki",
+        "players" : ["pipetka", "pipirki", "pacitko", "girshik", "pipidastr"]
+    },
 
-
-
-
-}]
+    {
+        "name" : "test",
+        "players" : ["player1", "player2", "player3", "player4", "player5"]
+    }
+]   
