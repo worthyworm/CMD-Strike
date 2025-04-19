@@ -15,24 +15,41 @@ roundsMax = 24
 maps = ["Mirage", "Dust 2", "Inferno", "Anubis", "Ancient", "Train"]
 
 weapons = {
-    "Glock-18" : {"damage" : 30, "cost" : 200, "penetration" : 47, "ammo" : 20, "magazines" : 6, "reload" : 2.2, "bounty" : 300, "side" : "T", "type" : "Pistol"},
-    "USP-S" : {"damage" : 35, "cost" : 200, "penetration" : 51, "ammo" : 12, "magazines" : 2, "reload" : 2.2, "bounty" : 300, "side" : "CT", "type" : "Pistol"},
-    "Dual-Berettas" : {"damage" : 38, "cost" : 400, "penetration" : 57, "ammo" : 30, "magazines" : 4, "reload" : 3.8, "bounty" : 300, "side" : "", "type" : "Pistol"},
-    "P250" : {"damage" : 38, "cost" : 300, "penetration" : 64, "ammo" : 13, "magazines" : 2, "reload" : 2.2, "bounty" : 300, "side" : ""},
-    "Five-SeveN" : {"damage" : 32, "cost" : 500, "penetration" : 92, "ammo" : 20, "magazines" : 5, "reload" : 2.2, "bounty" : 300, "side" : "CT", "type" : "Pistol"},
-    "Tec-9" : {"damage" : 33, "cost" : 500, "penetration" : 90, "ammo" : 18, "magazines" : 5, "reload" : 2.5, "bounty" : 300, "side" : "T"},
-    "Desert Eagle" : {"damage" : 73, "cost" : 700, "penetration" : 93, "ammo" : 7, "magazines" : 5, "reload" : 2.2, "bounty" : 300, "side" : "", "type" : "Pistol"},
+    "Glock-18" : {"damage" : 30, "cost" : 200, "penetration" : 47, "ammo" : 20, "magazines" : 6, "firerate" : 6.66, "reload" : 2.2, "bounty" : 300, "side" : "T", "type" : "Pistol"}, #fire rate is calculated in shots per second
+    
+    "USP-S" : {"damage" : 35, "cost" : 200, "penetration" : 51, "ammo" : 12, "magazines" : 2, "firerate" : 6, "reload" : 2.2, "bounty" : 300, "side" : "CT", "type" : "Pistol"},
+    
+    "Dual-Berettas" : {"damage" : 38, "cost" : 400, "penetration" : 57, "ammo" : 30, "magazines" : 4, "firerate" : 8.33,  "reload" : 3.8, "bounty" : 300, "side" : "", "type" : "Pistol"},
+    
+    "P250" : {"damage" : 38, "cost" : 300, "penetration" : 64, "ammo" : 13, "magazines" : 2, "firerate" : 6.66,  "reload" : 2.2, "bounty" : 300, "side" : ""},
+    
+    "Five-SeveN" : {"damage" : 32, "cost" : 500, "penetration" : 92, "ammo" : 20, "magazines" : 5, "firerate" : 6.66,  "reload" : 2.2, "bounty" : 300, "side" : "CT", "type" : "Pistol"},
+    
+    "Tec-9" : {"damage" : 33, "cost" : 500, "penetration" : 90, "ammo" : 18, "magazines" : 5, "firerate" : 8.33,  "reload" : 2.5, "bounty" : 300, "side" : "T"},
+    
+    "Desert Eagle" : {"damage" : 73, "cost" : 700, "penetration" : 93, "ammo" : 7, "magazines" : 5, "firerate" : 4.45,  "reload" : 2.2, "bounty" : 300, "side" : "", "type" : "Pistol"},
+    
     "MAC-10" : {},
+    
     "MP9" : {},
+    
     "MP5-SD" : {},
+    
     "FAMAS" : {},
+    
     "Galil AR" : {},
+    
     "M4A1-S" : {},
+    
     "M4A4" : {},
+    
     "AK-47" : {},
+    
     "SSG 08" : {},
+    
     "AWP" : {},
-    "Knife" : {},
+    
+    "Knife" : {"damage" : 50, "cost" : 0, },
 
 }
 
